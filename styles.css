@@ -1,0 +1,240 @@
+
+
+:root {
+    --cor-fundo: #62b944;
+}
+.copo{
+    background-color: #62b944;
+}
+.banner{
+    font-size: 60px;
+    font-weight: 700; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 132%;
+    margin: 20px;
+    padding-top: 50px;
+}
+.blas{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+}
+
+.a {
+    padding: 10px;
+}
+.cabaco {
+    background-color: white;
+    width: 132%;
+
+}
+.caxa{
+    display: flex;
+    justify-content: space-evenly;
+    width: 132%;
+    
+}
+.caxa2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 132%;
+    
+}
+.preco{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 60px;
+    font-weight: 700; 
+    width: 132%;
+}
+.pesquisa{
+    font-size: 50px;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 100px;
+}
+.promo{
+    font-size: 60px;
+    font-weight: 1000;
+}
+.PRomoçao{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 132%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.precopromo{
+    display: flex;
+    font-size: 60px;
+    width: 132%;
+    font-weight: 700; 
+    justify-content: center;
+}
+.pe{
+    width: 132%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.numero{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+}
+.logope{
+    padding: 20px;
+}
+.bolastablet{
+    display: none;
+}
+.jogotablet{
+    display: none;
+}
+.jogopc{
+    display: none;
+}
+.precotablet{
+    display: none;
+}
+.precopc{
+    display: none;
+}
+.controlepromo{
+    display: none;
+}
+.precotrole{
+    display: none;
+}
+.promopc{
+    display: none;
+}
+promotablet{
+    display: none;
+}
+@media screen and (min-width: 1024px ){
+    .promopcpreco{
+        display: flex;
+    }
+    .cabaco{
+        display: flex;
+    }
+    .rede{
+        font-size: 50px;
+        font-weight: 700;
+        padding: 30px;
+        padding-right: 40px;
+    }
+    .bolastablet{
+        display: flex;
+        flex-direction: column;
+    }
+    .redesbolas{
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+    .precotablet{
+        display: block;
+        font-size: 60px;
+        font-weight: 700; 
+    }
+    .preco{
+        display:flex;
+        width: 132%;
+        font-size: 60px;
+        font-weight: 700; 
+    }
+    .jogotablet{
+        display: block;
+    }
+    .caxa{
+        display: flex;
+        width: 132%;
+        justify-content: center;
+        padding-top: 75px;
+    }
+    .caxa2{
+        display: flex;
+        width: 132%;
+        justify-content: center;
+        padding-top: 75px;
+    }
+    .controlepromo{
+        display: block;
+    }
+    .promotablet{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 35px;
+        
+    }
+    .precotrole{
+        display: block;
+
+    }
+    .promotabletpreco{
+        display: flex;
+        font-size: 60px;
+        font-weight: 700;
+        justify-content: space-evenly;
+    }
+    .PRomoçao{
+        padding-top: 90px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .cabaco{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .jogopc{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .caxa{
+        display: flex;
+        width: 132%;
+        justify-content: space-evenly;
+        padding-top: 75px;
+    }
+    .caxa2{
+        display: flex;
+        width: 132%;
+        justify-content: space-evenly;
+        padding-top: 75px;
+    }
+    .precopc{
+        display: flex;
+    }
+    .promotablet{
+        display: none;
+    }
+    .promopc{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100S%;
+    }
+    .promotabletpreco{
+        display: none;
+    }
+    .promopcpreco{
+        display: flex;
+        font-size: 60px;
+        font-weight: 700;
+        justify-content: space-evenly;
+        width: 132%;
+
+    }
+
+}
+    
